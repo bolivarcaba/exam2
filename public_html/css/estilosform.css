@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2017, 7:45:20 PM
+    Author     : 00140261
+*/
+
+
+form{
+/* para centrar el formaulario poner color found */
+
+margin: 0 auto;
+widh:800px;
+background: chartreuse;
+ margin-bottom: 1em;
+
+ 
+ border: 2px solid #CCC;
+border-radius: 20px;
+}
+
+
+form div{ margin-top: 1em;
+         
+}
+/* para asegurarnos que todos lo slabels tengan el mismo ancho*/
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-size: 14px;
+}
+
+input, textarea {
+    width: 400px;
+    font: 1em sans-serif;
+}
